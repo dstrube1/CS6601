@@ -1,0 +1,44 @@
+P(GR|MCP, OP)
+
+P(Y|X,e) = 
+P(X|Y,e) * P(Y|e) 
+-----------------
+	 P(X|e)
+
+P(B|A) = 
+		P(A|B) * P(B) 
+------------------------------
+ P(A|B) * P(B) + P(!B)*P(A|!B)
+ 
+
+P(MCP|SF,MF) = 
+P(SF|MCP,MF) * P(MCP|MF) 
+------------------------
+ 	P(SF|MF)
+ 	
+P(SF) = 0.8
+P(MF) = 0.7
+P(!SF) = 0.2
+P(!MF) = 0.3
+ 
+
+P(GR|MCP, OP) = 
+P(MCP|GR,OP) * P(GR|OP) 
+------------------------
+ 	P(MCP|OP)
+
+P(OP) = 0.6
+P(!OP) = 0.4 
+
+P(!GR|MCP, OP) = 
+P(MCP|!GR,OP) * P(!GR|OP) 
+------------------------
+ 	P(MCP|OP)
+ 
+
+P(GR|MCP, OP) + P(!GR|MCP, OP) = 1
+
+0.1 * 0.8 + (P(LF|MCP = T) * P(GR|LF,RD = F, F))
+0.1 * 0.3 + 
+0.6 * 0.2 + 
+0.1 * 0.8

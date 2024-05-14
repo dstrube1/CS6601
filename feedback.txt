@@ -1,0 +1,131 @@
+from https://edstem.org/us/courses/17728/discussion/1351035:
+
+To everyone who reached out to my outcry, you are my rocks! 
+
+Your time and support kept my sanity in one piece during my agonizing, frustrating and depressing journey through assignment 5. 
+
+Thank you 🙇‍♀️ (a bowing figure to show my deepest gratitude to you)
+
+A specific and timely feedback is a gift. Here is mine for my dear teaching staff.
+
+TL;DR
+Provide clear explanation on math formula, concrete NumPy coding examples and their (math formula and NumPy) applications in coding assignments to help a student to connect the dots between lecture concepts, assignments’ requirements, and coding implementation.
+
+---------
+
+I choose to believe that my dear teaching staff are passionate about AI and love to share their passion and knowledge with anyone who seeks it. I choose to believe the coding assignments are designed to demonstrate my conceptual understanding of the lectures with a specific programing coding implementation. I choose to believe that help will be given to those who ask while honoring the honor code.
+
+Let my dismal (one should withdraw) midterm grade reflect that passing coding assignments does not mean I understand the lecture concepts. 
+
+I disagree that the approach of “every single line of code is a test of the last straw that breaks my back”, to coding assignments design. 
+
+I disagree on principle that because the material is hard, hence the learning must be difficult.
+
+My specific feedbacks on assignment 5:
+There are at least seven (7) math formulas that required my understanding to complete assignments 5. None of it is explained in the assignment 5 description how they can be applied using numpy specifically
+
+No explanation on the math formulas (presented in the previous bluejean overview), why they are different from em.pdf, how a student can use the formulas and how NumPy can be applied with the presented formula.
+
+No explanation on the concept of clusters, segments, and X in assignment 5. What is X?
+
+Inconsistent terminology/usage on initial_means, random selection of points from image value; means, average; MU collections of average; sigma, covariance matrix; PI, coefficient; k, number of components. The components of what??
+
+Incomplete units test on prob(). Passing local unit test of prob() does not means prob() would working with E-step. How frustrating!
+
+No concrete NumPy coding examples on vectorization and einsum. I’m not asking for a fish. I’m asking for you to show me how to fish. If a fish is never shown to me before, how can I know what I need to fish?
+
+Questions on ED are left unresolved or not resolved in a timely manner.
+
+The rule of random on GradeScope submission is never explained in assignment 5 or any previous assignments
+
+Part 2 is a beast. Do award some points for compute_sigma(). You give 1 point for me returning my name. Why compute_sigma() is not graded?
+
+Echoing another great improvement suggestions post specific for assignment 5:
+
+https://edstem.org/us/courses/17728/discussion/1335473
+
+Great information to include for assignment 5:
+
+Interpretation of Covariance, Covariance Matrix and Eigenvalues | Towards Data Science
+
+Example of Calculating a Covariance Matrix | James D. McCaffrey (wordpress.com)
+
+A Guide to `prob()` without einsum
+
+https://edstem.org/us/courses/17728/discussion/1330976?comment=3024387
+
+My specific (not very timely) feedback on assignment 4:
+Incorrect local unit tests on decision tree results in over-fitting
+
+Difference between local and GradeScope unit tests leads over/under fitting in coding implementation. Yet no efficient code review process can help me understand the whys.
+
+No explanation for the concepts of features and classes_vector. What does a row in a data file represent in lecture concept, assignment requirement and coding implementations?
+
+No concrete NumPy coding examples to help a student to connect the dots between the lecture concepts, assignment requirements and coding implementation. This is resulted in complex coding which lead to failed code review, ultimately failed assignment...Again. 
+
+My specific (not timely) feedback on assignment 3:
+No concrete NumPy coding examples to help a student to connects the dots between the lecture concepts, math formula in the reading supplements, assignment requirements and coding implementation.
+
+The assignment does not help my understanding on how to use NumPy to exact inference in Bayesian Network using pointwise multiplication. 
+
+The assignment does not help my understanding on how to calculate probabilities via Bayes’ rule.
+
+My specific (not timely) feedback on assignment 2:
+The assignment does not help my understanding on why I can and cannot beat Pete’s secrete evaluation formula
+
+No warmup /refresher exercise on recursion
+
+My specific (not timely) feedback on assignment 1:
+No concrete NumPy coding examples to help a student to connect the dots between the lecture concepts, math formula in the reading supplements, assignment requirements and coding implementation.
+
+The uniform cost search coding segment should go before the breadth first search, so a student does not waste days to figure out one needs to understand and implement the uniform cost search first before attempting to understand and implement breadth first search
+
+My dear teaching staff, do you see where my feedback is going with the coding assignments?
+
+Hint: providing clear explanation on math formula, concrete NumPy coding examples and their (math formula and NumPy) applications in coding assignments to help a student to connect the dots between lecture concepts assignments’ requirements and coding implementation.
+
+When I understand the concept of recursion, what a Fibonacci Number is, and the fundamental of java; I can implement Fibonacci Number with recursion using java and other programming languages. The key is that I have the conceptual understanding of recursion, the math of a Fibonacci number and the fundamental of the specific programming language. 
+
+You know that there is a gap when every single OH are flooded with code review requests and everyone asks same question in the same OH. 
+
+I do hope my following feedback will help to break the vicious cycle of “start early on your assignment -> flood OH/Ed with code review request.”
+
+Specific (hopefully timely enough for next rounds) feedback on coding assignments design:
+Provide python/NumPy bootcamp, coding style up front with first warmup exercise so a student would know what is expected of them when it comes to python, NumPy, coding style, organization and writing clean code.
+
+Use consistent terminology between the lectures, math formula, reading supplement and coding assignments
+
+Break up the assignment into smallest pieces possible and provide plenty graded warmup exercises to help a student to understand the applicable math formula, their application and coding implementation corresponding to the assignment
+
+Provide local unit tests as closed to as the version on GradeScope. It is extremely frustrating and depressing to see a failed submission on GradeScope when everything passes local unit test. I yet to know why it failed GradeScope. How can I learn from failure?
+
+Provider a process flow of pseudo code logics for each coding assignment. A student can follow the process logic of the assignment design to code. During code review, a student can use the flow to demonstrate their conceptual understanding and their approach in coding implementation. Teach staff can use the flow to assess where the gap between a student’s conceptual understanding and the coding implementation. 
+
+Provide clear and concise coding assignment description. Coding implementation is all about the details. There are lots of reading materials that I don’t have time to read and understand them all. I want to read less, understand the ask quicker and get to the coding done faster. So, I have time to read all the supplement reading materials and ponder my life choices of AI.
+
+Specific (hopefully timely enough for next rounds) feedback on OH:
+Schedule the OH meetings in a way that allows the students to join the meeting instead of waiting for the moderator to start the meeting. This way the students can self-initiate a waiting list. Or use a google doc spreadsheet for sign in. Do allow the students to talk about whiteboard approach among themselves while waiting the meeting to start and during your breakout session.
+
+Earpiece/Bluetooth may not be the best way to host a meeting, there can be lots of feedback, making it difficult to hear clearly. Communication (with minimal background noise) is vital for a student to get any useful information from OH discussions.
+
+Please do give a quick glance of the corresponding assignment of the week. The materials are hard. I do my best to watch/read/process the lectures and supplement material. I expect you to do the same for the OH. I respect your time and commitment on hosting OH. Please respect my time and commitment to maximize the benefit of live interaction/communication. You will feel good about helping me to understand the concepts/assignments’ requirements. I will leave with the knowledge I seek.
+
+I understand there are more urgent, important, and unforeseen things in one’s life than honoring a scheduled OH. I choose to schedule my work and life around the OH calendar from the beginning of the semester. Please update the OH calendar as early as possible at your convenience.
+
+If challenge questions would not be entertained during OH, perhaps make a note about it? How about dedicating a discussion thread for challenge questions? Gamification is a great motivation for one to learn. I love a fair game on leveled ground. I yet to gain any knowledge or conceptual understanding from challenge questions discussion so far when I still struggle with my conceptual understanding of the assignment itself.
+
+Not so specific feedback on OMSCS CS6601:
+The asynchronous and distributed OMSCS program provides great opportunities for anyone who desires to learn more and do better. The same asynchronous and distributed program prevents the instant feedback a human brain craves. Effective, clear, and concise communication between the teaching staff and the students is vital for the teaching and the learning of AI.
+
+I understand that the material is hard. 
+
+I am committed to learning as much as you are willing to teach. 
+
+I choose to believe our passion for AI will harness the rising power of machines to do human’s bidding.
+
+
+May the force of random be with you.
+
+Sincerely yours,
+
+Jeanette
